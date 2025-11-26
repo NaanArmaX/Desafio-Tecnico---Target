@@ -12,7 +12,7 @@ Aplicação desktop desenvolvida em **Python** com interface gráfica utilizando
 |----------------------------------------|--------|
 | Cálculo de Comissões por faixa de vendas | ✅     |
 | Cálculo de Juros com seletor de data   | ✅     |
-| Controle completo de Estoque           | ✅     |
+| Controle de Estoque                     | ✅     |
 | Interface gráfica moderna (ttk)        | ✅     |
 | Código modularizado e organizado       | ✅     |
 | Tratamento de erros e validações       | ✅     |
