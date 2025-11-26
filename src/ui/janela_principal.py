@@ -25,6 +25,6 @@ def open_window():
 
     aba_comissoes.criar_aba(frame1, text_output)
     aba_estoque.criar_aba(frame2, text_output)
-    #aba_juros.criar_aba(frame3, text_output)
+    aba_juros.criar_aba(frame3, text_output)
 
     root.mainloop()

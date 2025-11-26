@@ -76,7 +76,7 @@ def total_estoque(text_output):
             f"Código: {item['codigo']}\n"
             f"Produto: {item['descricao']}\n"
             f"Quantidade: {item['estoque']}\n"
-            "-------------------------\n"
+            f"{"-"*50}\n"
         )
 
     text_output.insert("end", texto)
