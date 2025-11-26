@@ -1,6 +1,7 @@
 import uuid
 
-def movimentar_estoque(item,quantidade,tipo):
+
+def movimentar_estoque(item, quantidade, tipo):
     if tipo == "Entrada":
         item["estoque"] += quantidade
     else:

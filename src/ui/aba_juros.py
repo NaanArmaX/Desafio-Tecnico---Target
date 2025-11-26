@@ -4,19 +4,23 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 from services.juros import calcular_juros
 
+
 def criar_aba(frame, text_output):
     ttk.Label(frame, text="Valor:").pack()
-    entry_valor = ttk.Entry(frame); entry_valor.pack()
+    entry_valor = ttk.Entry(frame)
+    entry_valor.pack()
 
     ttk.Label(frame, text="Vencimento:").pack()
     entry_data = DateEntry(frame, date_pattern="dd/mm/yyyy")
     entry_data.pack()
 
     btn = ttk.Button(
-        frame, text="Calcular Juros",
-        command=lambda: executar(entry_valor, entry_data, text_output)
+        frame,
+        text="Calcular Juros",
+        command=lambda: executar(entry_valor, entry_data, text_output),
     )
     btn.pack(pady=10)
+
 
 def executar(entry_valor, entry_data, text_output):
     try:
@@ -30,10 +34,11 @@ def executar(entry_valor, entry_data, text_output):
             return
 
         text_output.delete("1.0", "end")
-        text_output.insert("end",
+        text_output.insert(
+            "end",
             f"Dias de atraso: {dias}\n"
             f"Juros: R${juros:.2f}\n"
-            f"Total a pagar: R${total:.2f}"
+            f"Total a pagar: R${total:.2f}",
         )
     except:
         messagebox.showerror("Erro", "Valor inválido!")

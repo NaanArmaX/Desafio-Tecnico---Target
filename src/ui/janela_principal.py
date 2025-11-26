@@ -3,6 +3,7 @@ from tkinter import ttk
 
 from ui import aba_comissoes, aba_estoque, aba_juros
 
+
 def open_window():
     root = tk.Tk()
     root.title("Sistema – Vendas, Estoque e Juros")

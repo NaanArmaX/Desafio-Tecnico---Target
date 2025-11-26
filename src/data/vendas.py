@@ -9,7 +9,6 @@ vendas = [
     {"vendedor": "João Silva", "valor": 250.30},
     {"vendedor": "João Silva", "valor": 480.75},
     {"vendedor": "João Silva", "valor": 320.40},
-
     {"vendedor": "Maria Souza", "valor": 2100.40},
     {"vendedor": "Maria Souza", "valor": 1350.60},
     {"vendedor": "Maria Souza", "valor": 950.20},
@@ -19,7 +18,6 @@ vendas = [
     {"vendedor": "Maria Souza", "valor": 400.50},
     {"vendedor": "Maria Souza", "valor": 180.20},
     {"vendedor": "Maria Souza", "valor": 90.75},
-
     {"vendedor": "Carlos Oliveira", "valor": 800.50},
     {"vendedor": "Carlos Oliveira", "valor": 1200.00},
     {"vendedor": "Carlos Oliveira", "valor": 1950.30},
@@ -28,7 +26,6 @@ vendas = [
     {"vendedor": "Carlos Oliveira", "valor": 300.40},
     {"vendedor": "Carlos Oliveira", "valor": 500.00},
     {"vendedor": "Carlos Oliveira", "valor": 125.75},
-
     {"vendedor": "Ana Lima", "valor": 1000.00},
     {"vendedor": "Ana Lima", "valor": 1100.50},
     {"vendedor": "Ana Lima", "valor": 1250.75},
