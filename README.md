@@ -85,7 +85,7 @@ src/
 #### Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/sistema-comercial-tkinter.git
+git clone https://github.com/seu-usuario/sistema-comercial-tkinter.git](https://github.com/NaanArmaX/Desafio-Tecnico---Target.git
 cd sistema-comercial-tkinter
 ```
 
