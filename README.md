@@ -100,6 +100,6 @@ Obs: Tkinter já vem embutido no Python padrão
 #### Execute a aplicação
 
 ```bash
-    Bashpython src/main.py
+    python src/main.py
 ```
 
