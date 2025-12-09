@@ -78,10 +78,6 @@ src/
 
 
 
-
-
-
-
 #### Clone o repositório
 
 ```bash
@@ -93,7 +89,7 @@ cd Desafio-Tecnico---Target
 
 ```bash
    pip install -r requirements.txt
-    
+
 ```
 Obs: Tkinter já vem embutido no Python padrão
 
@@ -103,3 +99,12 @@ Obs: Tkinter já vem embutido no Python padrão
     python src/main.py
 ```
 
+---
+
+## 📦 Build Desktop (opcional)
+
+#### Este projeto pode ser compilado para .EXE standalone utilizando PyInstaller:
+
+```bash
+   pyinstaller --onefile --windowed src/main.py
+```
