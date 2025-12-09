@@ -1,6 +1,6 @@
 from tkinter import ttk
-from data.vendas import vendas
-from services.comissoes import calc_comi
+from src.data.vendas import vendas
+from src.services.comissoes import calc_comi
 
 
 def criar_aba(frame, text_output):

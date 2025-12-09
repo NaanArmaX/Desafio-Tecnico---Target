@@ -4,6 +4,9 @@ __pycache__/
 *.pyo
 *.pyd
 .env
+dist/
+build/
+*.spec
 
 # VSCode
 .vscode/

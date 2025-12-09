@@ -2,7 +2,7 @@ from tkcalendar import DateEntry
 from tkinter import ttk
 import tkinter as tk
 from tkinter import ttk, messagebox
-from services.juros import calcular_juros
+from src.services.juros import calcular_juros
 
 
 def criar_aba(frame, text_output):

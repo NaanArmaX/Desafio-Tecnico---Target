@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 
-from data.estoque import estoque
-from services.estoque_service import movimentar_estoque
+from src.data.estoque import estoque
+from src.services.estoque_service import movimentar_estoque
 
 
 def criar_aba(frame, text_output):

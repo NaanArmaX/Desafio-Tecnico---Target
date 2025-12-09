@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 
-from ui import aba_comissoes, aba_estoque, aba_juros
+from src.ui import aba_comissoes, aba_estoque, aba_juros
 
 
 def open_window():
