@@ -85,8 +85,8 @@ src/
 #### Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/sistema-comercial-tkinter.git](https://github.com/NaanArmaX/Desafio-Tecnico---Target.git
-cd sistema-comercial-tkinter
+git clone https://github.com/NaanArmaX/Desafio-Tecnico---Target.git
+cd Desafio-Tecnico---Target
 ```
 
 #### Instale as dependências
