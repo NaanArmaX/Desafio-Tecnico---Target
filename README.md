@@ -92,7 +92,7 @@ cd Desafio-Tecnico---Target
 #### Instale as dependências
 
 ```bash
-   Bashpip install -r requirements.txt
+   pip install -r requirements.txt
     
 ```
 Obs: Tkinter já vem embutido no Python padrão
