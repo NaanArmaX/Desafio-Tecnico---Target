@@ -8,6 +8,8 @@ dist/
 build/
 *.spec
 
+src/database/app.db
+
 # VSCode
 .vscode/
 
